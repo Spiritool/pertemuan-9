@@ -5,58 +5,168 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
 </head>
-<body class="bg-teal-500 text-white">
-    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+<body>
+   
+    <nav class="flex items-center justify-between flex-wrap bg-sky-500 p-6">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
-          <span class="font-semibold text-xl tracking-tight">Mohammad Shobri</span>
+          <span class="font-semibold text-xl tracking-tight">Tugas ke-8</span>
         </div>
         <div class="block lg:hidden">
           <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
             <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
           </button>
         </div>
-        <div class="w-full items text-center block flex-grow lg:flex lg:items-center lg:w-auto">
+        
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center">
           <div class="text-lg lg:flex-grow">
             <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Home
+              Docs
             </a>
             <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
               About
             </a>
             <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-              Services
+              Service
             </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-              Portofolio
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Portofolio
             </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-              Team
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Team
             </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-              Dropdown
-            </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-              Contact
-            </a>
+            <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="text-white bg-tranparant-700 hover:bg-tranparant-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+
+<div id="dropdown" class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(0px, 10px);">
+    <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
+      <li>
+        <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">FITRIA EVI SUSANA</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">FITRIA</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">3122522007</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">KELAS IT</a>
+      </li>
+    </ul>
+</div>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Contact
+              </a>
           </div>
           <div>
-            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Get Started</a>
           </div>
         </div>
       </nav>
 
-      <div class="container mx-auto py-5">
-        <div class="w-full grid grid-cols-2 items-center">
-            <div class="w-full">
-                <p class="font extra-bold text-4xl mb-1 w-[60%]">Better Solution For Your Bussiness</p>
-                <p class="w-1/2 mb-10">We are team of talented designers making websites with Tailwind</p>
-                <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-blue mt-4 lg:mt-0">Download</a>
+<div class="container-fluid mx-auto px-4 py-4 bg-emerald-400">
+    <div class="grid grid-rows-1 grid-cols-2">
+        <div class=" grid-rows-2 grid-cols-1">
+            <div class="text-6xl font-extrabold text-white px-4 py-4 ml-4 mt-24 leading-snug">Better Solutions For Your Business</div>
+            <div class="text-4xl font-bold px-4 py-4 ml-4 text-gray-700">We are team of talented designers making websites with Tailwind</div>
+
+            <div class="px-7 py-4">
+                <a href="#" class="inline-block rounded-full text-2xl text-sm px-4 py-2 leading-none border rounded text-black border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
             </div>
-            <div>
-                <img src="img/hero.png" alt="...">
-            </div>
+
+        </div>
+        <div class="flex grid-rows-1 grid-cols-1 mt-24">
+            <img src="img/hero.png" class="h-3/4 animate-pulse" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div class="justify-center flex grid-rows-1 grid-cols-5 px-0 -mt-24  gap-7 ">
+  <div class="py-14 hover:py-16 bg-teal-600 text-center drop-shadow-2xl rounded-lg hover:bg-teal-400 duration-700 row-span-2 col-span-1">
+    <div class="px-8">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-44 h-44 stroke-white">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+      </svg>                              
+      <div class="font-bold text-3xl text-gray-700">
+        TILL
+      </div>       
+    </div>
+  </div>
+  <div class="py-14 hover:py-16 bg-teal-600 text-center drop-shadow-2xl rounded-lg hover:bg-teal-400 duration-700 row-span-2 col-span-1">
+    <div class="px-8">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-44 h-44 stroke-white">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 19.5v-.75a7.5 7.5 0 00-7.5-7.5H4.5m0-6.75h.75c7.87 0 14.25 6.38 14.25 14.25v.75M6 18.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+      </svg>                  
+      <div class="font-bold text-3xl text-gray-700">
+        LOUS
+      </div>       
+    </div>
+  </div>
+  <div class="py-14 hover:py-16 bg-teal-600 text-center drop-shadow-2xl rounded-lg hover:bg-teal-400 duration-700 row-span-2 col-span-1">
+    <div class="px-8">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-44 h-44 stroke-white">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 3l8.735 8.735m0 0a.374.374 0 11.53.53m-.53-.53l.53.53m0 0L21 21M14.652 9.348a3.75 3.75 0 010 5.304m2.121-7.425a6.75 6.75 0 010 9.546m2.121-11.667c3.808 3.807 3.808 9.98 0 13.788m-9.546-4.242a3.733 3.733 0 01-1.06-2.122m-1.061 4.243a6.75 6.75 0 01-1.625-6.929m-.496 9.05c-3.068-3.067-3.664-7.67-1.79-11.334M12 12h.008v.008H12V12z" />
+      </svg>                  
+      <div class="font-bold text-3xl text-gray-700">
+        DOMINEX
+      </div>       
+    </div>
+  </div>
+  <div class="py-14 hover:py-16 bg-teal-600 text-center drop-shadow-2xl rounded-lg hover:bg-teal-400 duration-700 row-span-2 col-span-1">
+    <div class="px-8">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-44 h-44 stroke-white">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
+      </svg>                 
+      <div class="font-bold text-3xl text-gray-700">
+        XEROF
+      </div>       
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-cols-1 text-center">
+  <div class="text-6xl font-extrabold text-gray-400 px-4 mt-24 leading-snug">PENJELASAN</div>
+  <div class="">isi disini apa saja</div>
+</div>
+
+<div class="container-fluid mx-auto px-4 py-4">
+  <div class="grid grid-rows-1 grid-cols-2">
+      <div class=" grid-rows-2 grid-cols-1">
+        <div>
+          <b><h1>CARA MEMBUAT BOLU COKLAT</h1></b>  
+        </div>
+          <img src="img/bolu.jpg" alt="....." width="90%">
+
+          <p>Bahan-bahan:
+
+            8 sdm tepung
+            2 sdm maizena
+            2 sdm cokelat bubuk
+            6 sdm skm cokelat
+            7sdm minyak goreng
+            2 butir telur
+            5 sdm gula pasir
+            1/2 sdt vanili
+            1/2 sdt SP
+            1/2 sdt baking powder
+            Cara membuat:<br>
+            
+            Campurkan telur, gula pasir dan SP dengan mixer kecepatan tinggi sampai mengembang.
+            Kemudian masukkan tepung, cokelat bubuk, maizena dan baking powder. Kemudian mixer dengan kecepatan sedang sampai tercampur rata.
+            Terakhir masukkan SKM cokelat, vanili dan minyak goreng, aduk sampai rata. Tuang ke dalam loyang yang sudah dioles margarin lalu panggang sampai matang.
+            </p>
+      </div>
+      
+      <div class="grid grid-rows-1 grid-cols-1 ">
+        <div>
+          <b><h1>RESESI EKONOMI 2022</h1></b>
+          <p>Menurut Bank Indonesia, inflasi merupakan kenaikan harga barang dan jasa secara umum yang terjadi secara terus menerus dalam jangka waktu tertentu. Sebenarnya inflasi bukan merupakan hal yang buruk jika masih terjadi dalam batas wajar perekonomian nasional masing-masing negara. Sebagai contoh, Amerika Serikat menargetkan inflasi 2%, Indonesia menargetkan sekitar 2-4%, dan Turki sebesar 5%.
+             Namun, kenaikan drastis inflasi dalam waktu sangat singkat di atas target yang telah 
+             ditentukan tidak berdampak baik untuk perekonomian. </p>
+          <img src="img/resesi.jpg" alt="....." width="90%">
         </div>
       </div>
+  </div>
+</div>
 </body>
 </html>
